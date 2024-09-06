@@ -5,6 +5,10 @@ import fr.iut.editeur.document.Document;
 
 public class CommandeFactory {
 
+    /**
+     * Usine de Commande
+     * construit des commandes
+     */
     private static CommandeFactory instance;
 
     public static CommandeFactory getInstance() {
@@ -17,6 +21,11 @@ public class CommandeFactory {
     private CommandeFactory() {}
 
     public Commande createCommand(String name, Document document, String[] parameters) {
+        /**
+         * creer une commandeAjouter,d'un doc et du texte de ce doc
+         * seulement si mot 'ajouter' est le premier parametres
+         * sinon return null
+         */
         switch (name) {
             case "ajouter" : return new CommandeAjouter(document, parameters);
             default: return null;

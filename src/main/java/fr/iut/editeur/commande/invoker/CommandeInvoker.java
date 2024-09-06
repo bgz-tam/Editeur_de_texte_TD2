@@ -6,6 +6,9 @@ import java.util.Stack;
 
 public class CommandeInvoker {
 
+    /**
+     * execute des commande
+     */
     private static CommandeInvoker instance;
 
     public static synchronized CommandeInvoker getInstance() {
