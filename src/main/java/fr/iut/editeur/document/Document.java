@@ -41,6 +41,10 @@ public class Document {
         remplacer(debut, fin-1, partie);
     }
 
+    public void clear() {
+        effacer(0,texte.length()-1);
+    }
+
     @Override
     public String toString() {
         return this.texte;
