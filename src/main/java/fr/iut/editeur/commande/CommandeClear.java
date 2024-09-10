@@ -15,9 +15,8 @@ public class CommandeClear extends CommandeDocument {
             return;
         }
         //ajout commentaire pour commit
-
         this.document.clear();
-
+        //bug retiré
         super.executer();
     }
 
