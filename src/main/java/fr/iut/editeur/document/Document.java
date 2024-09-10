@@ -26,6 +26,10 @@ public class Document {
         texte = partieGauche + remplacement + partieDroite;
     }
 
+    public void effacer(int debut, int fin) {
+        remplacer(debut, fin, "");
+    }
+
     /**
      * Met en majuscules une portion du texte
      * @param debut
