@@ -30,6 +30,12 @@ public class Document {
         remplacer(debut, fin, "");
     }
 
+    public void inserer(Integer position, String texte){
+        String partieGauche = texte.substring(0, position);
+        String partieDroite = texte.substring(position + 1);
+        this.texte = partieGauche + texte + partieDroite;
+    }
+
     /**
      * Met en majuscules une portion du texte
      * @param debut
