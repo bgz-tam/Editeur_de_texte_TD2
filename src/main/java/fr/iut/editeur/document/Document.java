@@ -30,10 +30,10 @@ public class Document {
         remplacer(debut, fin, "");
     }
 
-    public void inserer(Integer position, String texte){
+    public void inserer(Integer position, String plus){
         String partieGauche = texte.substring(0, position);
-        String partieDroite = texte.substring(position + 1);
-        this.texte = partieGauche + texte + partieDroite;
+        String partieDroite = texte.substring(position);
+        texte = partieGauche + plus + partieDroite;
     }
 
     /**
