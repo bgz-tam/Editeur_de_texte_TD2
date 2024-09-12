@@ -1,0 +1,24 @@
+-classpath
+'/home/tamara/.m2/repository/org/mockito/mockito-core/2.20.0/mockito-core-2.20.0.jar:/home/tamara/.m2/repository/net/bytebuddy/byte-buddy/1.8.13/byte-buddy-1.8.13.jar:/home/tamara/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.13/byte-buddy-agent-1.8.13.jar:/home/tamara/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/tamara/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/tamara/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/tamara/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/tamara/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/tamara/Documents/Matiere_S3/Qualite_de_dev/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/tamara/Documents/Matiere_S3/Qualite_de_dev/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'EditeurDeTexte 0.0.1 API'
+-use
+-version
+-windowtitle
+'EditeurDeTexte 0.0.1 API'

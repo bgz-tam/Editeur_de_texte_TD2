@@ -4,11 +4,11 @@ import fr.iut.editeur.commande.Commande;
 
 import java.util.Stack;
 
+/**
+ * Cette classe execute des commandes
+ */
 public class CommandeInvoker {
 
-    /**
-     * execute des commande
-     */
     private static CommandeInvoker instance;
 
     public static synchronized CommandeInvoker getInstance() {

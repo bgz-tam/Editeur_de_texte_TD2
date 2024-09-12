@@ -1,5 +1,9 @@
 package fr.iut.editeur.document;
 
+/**
+ * Cette classe permet de créer un document et définit les méthodes que l'ont peut utiliser sur celui-ci
+ * - Un Document est définit par un attribut de type texte (String)
+ */
 public class Document {
 
     private String texte;
